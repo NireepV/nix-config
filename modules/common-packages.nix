@@ -5,10 +5,11 @@
     vim
     neovim
     
-    git
+    brave
     htop
     neofetch
     kitty
+    home-manager
     # other shared packages
   ];
 }
