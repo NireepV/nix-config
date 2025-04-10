@@ -18,6 +18,8 @@
         desktop = nixpkgs.lib.nixosSystem {
           inherit system;
           modules = [
+            ../configuration.nix
+            ./modules/common-packages.nix
             ./hosts/desktop.nix
           ];
         };
