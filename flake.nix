@@ -23,6 +23,14 @@
             ./nix-config/hosts/desktop.nix
           ];
         };
+        laptop = nixpkgs.lib.nixosSystem {
+          inherit system;
+          modules = [
+            ./configuration.nix
+            ./nix-config/modules/common-packages.nix
+            ./nix-config/hosts/laptop.nix
+          ];
+        };
       };
     };
 }

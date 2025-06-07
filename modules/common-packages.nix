@@ -2,14 +2,20 @@
 
 {
   environment.systemPackages = with pkgs; [
-    vim
-    neovim
-    
+    # Utilities
+    libgcc
+    cmake
+    gnumake
+    rustup
     brave
     htop
     neofetch
     kitty
     home-manager
-    # other shared packages
+
+    # Text Editors
+    vim
+    neovim
+    vscode
   ];
 }
