@@ -10,7 +10,7 @@
     brave
     htop
     neofetch
-    kitty
+    wezterm
     home-manager
 
     # Text Editors
