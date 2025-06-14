@@ -11,6 +11,8 @@
     htop
     neofetch
     wezterm
+    kitty
+    rofi
     home-manager
 
     # Text Editors
